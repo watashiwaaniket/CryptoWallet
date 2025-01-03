@@ -2,8 +2,10 @@ interface MnemonicsProps {
     mnemonic: string;
 }
 
-export default function Mnemonics( { mnemonic }: MnemonicsProps ) {    
+export default function Mnemonics( { mnemonic }: MnemonicsProps ) {
     const wordsArray = mnemonic.split(' ');
+
+
     return(
         <div className="w-[270px] md:w-[480px] p-8 bg-slate-800 rounded-xl">
             <h2 className="text-rose-500 font-bold text-2xl">Your Secret Phrases:</h2>
