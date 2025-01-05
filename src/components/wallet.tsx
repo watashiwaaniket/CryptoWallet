@@ -35,7 +35,7 @@ export default function Wallet( {mnemonic}:{
   
 
     return (
-      <div className="w-[270px] md:w-[480px] p-8 bg-slate-800 rounded-xl mt-6 mb-6">
+      <div className="w-[360px] md:w-[480px] p-8 bg-slate-800 rounded-xl mt-6 mb-6">
         <h2 className="text-rose-500 font-bold text-2xl">Generate Public-Private keys:</h2>
         <p className="text-rose-300 font-semibold text-sm">Click Here To generate wallets.</p>
         <div className="flex justify-end">
@@ -50,7 +50,7 @@ export default function Wallet( {mnemonic}:{
             <p className="text-white font-normal w-[270px] md:w-[400px] flex flex-col break-words overflow-hidden p-2">
               <span className="text-lg font-bold text-violet-300">Public Key:</span> {keypair.publicKey}
             </p>
-            <p className="text-white font-normal w-[270px] md:w-[400px] flex flex-col break-words overflow-hidden p-2">
+            <p className="text-slate-400 font-normal w-[270px] md:w-[400px] flex flex-col break-words overflow-hidden p-2">
               <span className="text-lg font-bold text-yellow-200">Private Key:</span> {keypair.privateKey}
             </p>
             </div>
